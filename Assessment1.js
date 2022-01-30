@@ -6,23 +6,22 @@
     var count  = 2;
     var a = 0;
     var b = 1;
-    var sum = 0;
     if(num == 1){
         alert(0);
     }
     if(num == 2){
         alert(1);
     }
-    
+    if(num > 2){
+       var sum = 0;    
     while(count < num){
         sum =   a + b;
              a = b;
              b = sum;
              count++;
     }
-
     alert(sum);
-
+    }
 
 
    
