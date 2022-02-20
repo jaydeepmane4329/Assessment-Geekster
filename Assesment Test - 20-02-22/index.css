@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+div {
+  border: solid 1px black;
+}
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+  margin: auto;
+}
+
+.first_element {
+  background-color: rgb(108, 238, 108);
+  border: solid 1px black;
+  width: 100%;
+  margin: 5px;
+  padding: 10px;
+}
+
+.second_element {
+  background-color: yellow;
+  width: 90%;
+  padding: 5px;
+}
+
+.third_element {
+  background-color: yellow;
+  width: fit-content;
+  padding: 5px;
+  margin: 5px;
+}
+
+.first_child {
+  background-color: skyblue;
+  width: 100%;
+  padding: 10px;
+}
+
+.body {
+  background-color: yellow;
+  width: 150px;
+  margin: auto;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.second_child_container {
+  background-color: lightgreen;
+  width: 100%;
+  margin: 10px auto;
+}
+
+.wrapper {
+  background-color: yellow;
+  width: fit-content;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.third_child_container {
+  background-color: lightgray;
+  width: 95%;
+  margin: auto;
+}
+.container1 {
+  background-color: yellow;
+  width: fit-content;
+  padding: 5px;
+  margin: 5px auto;
+}
+.header_container {
+  background-color: pink;
+  width: 95%;
+  margin: 5px auto;
+}
+
+.header {
+  width: fit-content;
+  background-color: yellow;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.navigation_container {
+  background-color: rgb(238, 192, 236);
+  padding: 3px;
+  width: 93%;
+  margin: 5px auto;
+}
+
+.navigation {
+  width: fit-content;
+  margin: 5px auto;
+  padding: 5px;
+}
+
+.containerOf_container2 {
+  background-color: rgb(202, 229, 240);
+  width: 93%;
+  margin: 5px auto;
+}
+
+.container2 {
+  width: 95%;
+  margin: 5px auto 10px;
+  background-color: yellow;
+}
+.footer_container {
+  background-color: wheat;
+  width: 93%;
+  margin: 5px auto;
+}
+
+.footer {
+  background-color: yellow;
+  width: 80%;
+  margin: 5px auto;
+  padding: 5px;
+}
+span {
+  padding: 5px;
+  background-color: yellow;
+  border: 1px solid black;
+  margin: 5px;
+}
+.span_container {
+  width: fit-content;
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+  border: none;
+}
+.inside_div {
+  background-color: rgb(248, 244, 244);
+  padding: 10px;
+  margin: 5px;
+}
