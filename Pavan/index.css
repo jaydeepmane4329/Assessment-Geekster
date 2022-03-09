@@ -1,0 +1,37 @@
+.container {
+  width: 300px;
+  margin: auto;
+  text-align: left;
+}
+
+#div1 {
+  padding: 20px;
+  background-image: linear-gradient(rgb(238, 163, 176), white);
+}
+
+button {
+  background-color: rgb(240, 78, 49);
+  position: relative;
+  left: 20px;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  margin: 30px;
+}
+
+#div2 {
+  background-color: rgb(250, 243, 243);
+  padding: 20px;
+}
+#div3 {
+  padding: 10px;
+}
+
+#div4 {
+  background-color: rgb(255, 202, 193);
+  padding: 20px;
+}
