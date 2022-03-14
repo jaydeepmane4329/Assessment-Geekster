@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>weather App</title>
+    <script
+      src="https://kit.fontawesome.com/6419bd10ad.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="current_weather">
+        <div id="weather_info">
+          <div>
+            <span><i class="fa-solid fa-cloud-sun"></i></span>
+            <span id="temp"></span>
+          </div>
+          <div style="margin: 50px 10px">
+            <p id="humidity"></p>
+            <p id="wind"></p>
+          </div>
+        </div>
+        <div id="place_info">
+          <h1
+            style="
+              font-size: 20px;
+              font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            "
+          >
+            <i
+              style="font-size: 20px; margin: 2px; color: blue"
+              class="fa-solid fa-location-dot"
+            ></i
+            >Your Location
+          </h1>
+          <h1 id="name"></h1>
+          <h2 id="weather"></h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="search_results_container">
+      <div>
+        <input id="input" type="search" placeholder="Enter City Name" />
+        <button id="btn">Search</button>
+      </div>
+      <div id="searched_container" class="display">
+        <div id="current_weather">
+          <div id="weather_info">
+            <div>
+              <span><i class="fa-solid fa-cloud-sun"></i></span>
+              <span id="searched_temp"></span>
+            </div>
+            <div style="margin: 50px 10px">
+              <p id="searched_humidity"></p>
+              <p id="searched_wind"></p>
+            </div>
+          </div>
+          <div id="searched_info">
+            <h1 id="searched_place"></h1>
+            <h2 id="searched_weather"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
